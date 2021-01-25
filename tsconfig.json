@@ -3,16 +3,20 @@
     "declaration": true,
     "sourceMap": true /* Generates corresponding '.map' file. */,
     "importHelpers": true,
-    "module": "commonjs",
+    "target": "ES2019",
+    "lib": [
+      "ES2020",
+      "ESNext"
+    ],
+    "module": "CommonJS",
+    "moduleResolution": "node" /* Specify module resolution strategy: 'node' (Node.js) or 'classic' (TypeScript pre-1.6). */,
     "outDir": "lib",
     "rootDir": "src",
     "strict": true,
     "alwaysStrict": true /* Parse in strict mode and emit "use strict" for each source file. */,
-    "target": "es2019",
     /* Special for tests */
     "composite": true,
     /* Module Resolution Options */
-    "moduleResolution": "node" /* Specify module resolution strategy: 'node' (Node.js) or 'classic' (TypeScript pre-1.6). */,
     "esModuleInterop": true /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */,
     /* Advanced Options */
     "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */
