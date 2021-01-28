@@ -33,6 +33,7 @@ USAGE
 <!-- commands -->
 * [`sfmdop hello [FILE]`](#sfmdop-hello-file)
 * [`sfmdop help [COMMAND]`](#sfmdop-help-command)
+* [`sfmdop wsdl2ts`](#sfmdop-wsdl2ts)
 
 ## `sfmdop hello [FILE]`
 
@@ -70,4 +71,21 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.1/src/commands/help.ts)_
+
+## `sfmdop wsdl2ts`
+
+describe the command here
+
+```
+USAGE
+  $ sfmdop wsdl2ts
+
+OPTIONS
+  -h, --help           show CLI help
+  -o, --output=output  (required) output type file
+  -t, --types=types    type to process, can be set multiple times for listing
+  -w, --wsdl=wsdl      (required) wsdl file name to process
+```
+
+_See code: [src/commands/wsdl2ts.ts](https://github.com/KevinGossentCap/sfdc-md-ops/blob/v0.0.0/src/commands/wsdl2ts.ts)_
 <!-- commandsstop -->
